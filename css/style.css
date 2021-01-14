@@ -1,0 +1,50 @@
+* {
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: linear-gradient(180deg, rgb(211, 145, 145) 23.8%, rgb(81, 196, 142) 92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    
+    background-color: darksalmon;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    display: inline-table;
+    border-radius: 15px;
+    margin: 1rem auto;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin: 1rem;
+    width: 300px;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+
+button:focus {
+    outline: none;
+}
+
+
+
+
+
+
